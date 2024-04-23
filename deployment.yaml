@@ -8,11 +8,11 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-      app: pet-deploy
+      app: sandeep-deploy
   template:
     metadata:
       labels:
-        app: pet-deploy
+        app: sandeep-deploy
     spec:
       containers:
       - image: cloudsihmar/takin:latest
