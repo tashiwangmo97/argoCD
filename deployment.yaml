@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: pet-deploy
+    app: sandeep-deploy
   name: sandeep-deploy
 spec:
   replicas: 2
