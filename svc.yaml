@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: sandeep-deploy
-  name: sandeep-svc
+    app: tashi-deploy
+  name: tashi-svc
   #namespace: pet
 spec:
   ports:
@@ -11,5 +11,5 @@ spec:
     protocol: TCP
     targetPort: 8080
   selector:
-    app: sandeep-deploy
+    app: tashi-deploy
   type: NodePort
