@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: pet-deploy
+    app: sandeep-deploy
   name: sandeep-svc
   #namespace: pet
 spec:
